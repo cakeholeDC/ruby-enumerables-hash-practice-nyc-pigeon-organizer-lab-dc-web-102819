@@ -6,7 +6,9 @@ def nyc_pigeon_organizer(data)
     
     sex.each do |name|
      puts "name = #{name}"
-     if name != [data:gender] 
+     if name == "male" || if name == "femail"
+        puts "skip"
+     else
         pigeon_hash[data[:gender][name]] = {
           :color => [],
           :gender => [],
