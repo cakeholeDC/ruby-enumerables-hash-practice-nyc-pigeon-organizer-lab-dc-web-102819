@@ -22,6 +22,9 @@ def nyc_pigeon_organizer(data)
         if !pigeon_hash[name][attribute]
           pigeon_hash[name][attribute] = []
         end
+        
+        pigeon_hash[name][attribute].push(value)
+        
       end # end names.each
       
     end #end attr_values.each
