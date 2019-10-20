@@ -14,6 +14,9 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         puts "names.each...."
         puts name
+        
+        if !pigeon_hash[name]
+          
       end
     end
   end
