@@ -3,9 +3,9 @@ def nyc_pigeon_organizer(data)
   
   data.each do |attribute, values|
     puts attribute
-    puts value
-    value.each do |sub_value, name|
-      puts sub_value
+    puts values
+    values.each do |value, name|
+      puts value
       puts name
     end
   end
