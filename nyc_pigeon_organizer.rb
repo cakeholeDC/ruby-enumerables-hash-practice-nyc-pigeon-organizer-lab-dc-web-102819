@@ -20,9 +20,8 @@ def nyc_pigeon_organizer(data)
         end
         
         if !pigeon_hash[name[attribute]]
-          pigeon_hash >> name[attribute]
+          pigeon_hash[name[attribute]] = []
         end
-          
       end # end names.each
       
     end #end attr_values.each
