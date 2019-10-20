@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
   pigeon_hash = {}
   
   data[:gender].each do |sex|
-    puts "sex = #{sex}"
+    puts "sex = #{sex.values}"
     sex.values.each do |name|
      puts "name = #{name}"
      pigeon_hash[data[:gender][name]] = {
