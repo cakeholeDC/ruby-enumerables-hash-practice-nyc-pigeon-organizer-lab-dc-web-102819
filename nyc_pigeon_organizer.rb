@@ -5,11 +5,13 @@ def nyc_pigeon_organizer(data)
     puts attribute
     puts attr_values
     
-    attr_values.each do |value, name|
+    attr_values.each do |value, names|
       puts value
-      puts name
+      puts names
       
-      name.each do 
+      names.each do |name|
+        puts name
+      end
     end
   end
     
