@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   data[:gender].each do |sex|
     puts "sex = #{sex[0]}" #=> male/female
     
-    puts "#{sex}"
+    puts sex.keys
     
     #sex.values.each do |name|
      #puts "name = #{name}"
