@@ -4,14 +4,8 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     puts key
     puts value
-    value.each do |name|
-      puts name
-      pigeon_hash[data[key][value][name] = {
-        :color => [],
-        :gender => [],
-        :lives => []
-      }
-    end
+    #value.each do |name|
+    #end
   end
     
   puts "pigeon_hash = #{pigeon_hash}"
