@@ -19,8 +19,8 @@ def nyc_pigeon_organizer(data)
           pigeon_hash[name] = {}
         end
         
-        if !pigeon_hash[name[attribute]]
-          pigeon_hash[name[attribute]] = []
+        if !pigeon_hash[name][attribute]
+          pigeon_hash[name][attribute] = []
         end
       end # end names.each
       
