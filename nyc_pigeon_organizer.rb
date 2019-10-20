@@ -8,10 +8,11 @@ def nyc_pigeon_organizer(data)
      puts "name = #{name}"
      if name != [data:gender] 
         pigeon_hash[data[:gender][name]] = {
-        :color => [],
-        :gender => [],
-        :lives => []
-      }
+          :color => [],
+          :gender => [],
+          :lives => []
+        }
+      end
     end # |sex|.each
     puts "pigeon_hash = #{pigeon_hash}"
   end
