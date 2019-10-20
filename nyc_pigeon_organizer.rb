@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
       :gender => '',
       :lives => ''
     }
+  end
     
   puts pigeon_hash
 end
