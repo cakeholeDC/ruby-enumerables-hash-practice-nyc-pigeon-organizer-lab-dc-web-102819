@@ -3,12 +3,12 @@ def nyc_pigeon_organizer(data)
   
   data[:gender].each do |sex|
     sex.values.each do |name|
-      pigeon_hash[name] = {
+      pigeon_hash[data[:gender][name]] = {
         :color => [],
         :gender => [],
         :lives => []
       }
-    end
+    end # |sex|.values.each
   end
     
   puts pigeon_hash
