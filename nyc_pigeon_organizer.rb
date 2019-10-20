@@ -3,6 +3,7 @@ def nyc_pigeon_organizer(data)
   
   data.each do |key, value|
     puts key
+    key.each
   end
     
   puts pigeon_hash
