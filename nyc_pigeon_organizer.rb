@@ -16,10 +16,14 @@ def nyc_pigeon_organizer(data)
         puts name
         
         if !pigeon_hash[name]
+          pigeon_hash[name] = {}
+        end
           
-      end
-    end
-  end
+      end # end names.each
+      
+    end #end attr_values.each
+    
+  end #end data.each
     
   puts "pigeon_hash = #{pigeon_hash}"
   puts "END"
